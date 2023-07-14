@@ -1,0 +1,85 @@
+.sociallist_services {
+  background-color: #FFFFFF;
+}
+
+.sociallist_services a, .sociallist_services a:link, .sociallist_services a:visited, .sociallist_services a:hover, , .sociallist_services a:active {
+  padding: 0px 0px 0px 4px; 
+  color:#333333; 
+  display: block;
+  font-weight: normal;
+}
+
+.sociallist_dropdown a, .sociallist_dropdown a:link, .sociallist_dropdown a:visited, .sociallist_dropdown a:hover, .sociallist_dropdown a:active {
+  text-decoration: none; 
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  color: #000000;
+  border-style: none;
+  border: none;
+  padding: 0px;
+  margin: 0px;
+  height: 17px;
+  line-height: 17px;
+}
+
+.sociallist_dropdown a {
+  text-decoration: none; 
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  color: #333333;
+  border-style: none;
+  border: none;
+  padding: 0px;
+  margin: 0px;
+  height: 17px;
+  line-height: 17px;
+}
+
+.sociallist_dropdown a:hover {
+  background-color: #F5F5F5;
+  color: #000000;
+}
+
+.sociallist_dropdown a.cp:hover {
+	background-color: #EB1400;
+}
+
+.sociallist_services a.more, .sociallist_services a.more:link, .sociallist_dropdown a.more:hover {
+	color: #EB1400;
+	text-decoration: none; 
+}
+
+.sociallist_dropdown table, .sociallist_dropdown table tr, .sociallist_dropdown table td {
+	padding: 0px;
+	margin: 0px;
+	border-style: none;
+	border: none;
+	height: auto;
+	line-height: auto;
+	background-color: #FFFFFF;
+}
+
+.sociallist_dropdown img {
+	border: none; 
+	vertical-align:middle;
+	width: 16px;
+	height: 16px;
+	padding: 0px;
+	margin: 1px;
+	background: none;
+}
+
+.sociallist_dropdown {
+  z-index: 1000000;
+  text-align: left;
+  position: absolute; 
+  display: none; 
+  border: #CCCCCC solid 1px; 
+  padding: 0px 0px 0px 0px; 
+  overflow: hidden;
+  background-color: #FFFFFF;
+  font-family:Geneva, Arial, Helvetica, sans-serif;
+  font-weight: normal;
+}
